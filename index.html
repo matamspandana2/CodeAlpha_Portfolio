@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">JD<span>.</span></a>
+            
+            <input type="checkbox" id="menu-toggle" class="menu-checkbox">
+            
+            <label for="menu-toggle" class="menu-label">
+                <i class="fas fa-bars open-icon"></i>
+                <i class="fas fa-times close-icon"></i>
+            </label>
+
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm <span class="highlight">John Doe</span></h1>
+            <p>A Frontend Developer crafting beautiful, responsive, and fast web experiences.</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p class="about-text">I am a passionate web developer focused on writing clean, semantic code and creating fluid user interfaces. I love solving layout puzzles and optimizing sites for the best possible user experience.</p>
+            <a href="#" class="btn btn-secondary" download><i class="fas fa-download"></i> Download Resume</a>
+        </div>
+    </section>
+
+    <section id="skills" class="section gray-bg">
+        <div class="container">
+            <h2>My Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card"><i class="fab fa-html5"></i><p>HTML5</p></div>
+                <div class="skill-card"><i class="fab fa-css3-alt"></i><p>CSS3</p></div>
+                <div class="skill-card"><i class="fab fa-js"></i><p>JavaScript</p></div>
+                <div class="skill-card"><i class="fab fa-git-alt"></i><p>Git & GitHub</p></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-info">
+                        <h3>E-Commerce Interface</h3>
+                        <p>A pixel-perfect modern storefront design optimized beautifully across all screen sizes.</p>
+                        <div class="project-tags"><span>HTML5</span><span>CSS Grid</span></div>
+                        <a href="#" class="project-link">View Live <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-info">
+                        <h3>Dashboard Analytics Layout</h3>
+                        <p>A complex admin dashboard using advanced CSS Flexbox layouts and deep interactive hover states.</p>
+                        <div class="project-tags"><span>CSS Flexbox</span><span>Animations</span></div>
+                        <a href="#" class="project-link">View Live <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section gray-bg">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <p>Looking to collaborate on a project or have a career opportunity? Shoot me a message!</p>
+            <form class="contact-form" action="#" method="POST">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 John Doe. Built entirely with HTML & CSS.</p>
+            <div class="social-icons">
+                <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
